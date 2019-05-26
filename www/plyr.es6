@@ -1,6 +1,6 @@
 window.onload = () => {
   let p = new URLSearchParams(document.location.search)
-  let user = p.get('userid'), videourl = p.get('url'), viewid = (Math.random() * 10000 ^ 0)
+  let user = p.get('userid'), videourl = p.get('url'), viewid = (Math.random() * 10000 ^ 0) // viewid = null
   // const h = parse(location.hash)
   let player = document.getElementById('player')
   player.src = videourl
@@ -14,6 +14,5 @@ window.onload = () => {
       finalised: player.currentTime === player.duration
     })
   })
-  // player.addEventListener("onended", () => {
-  // })
+  // player.addEventListener("onended", () => {})
 }
