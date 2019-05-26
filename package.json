@@ -1,0 +1,44 @@
+{
+  "name": "poly.metrika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "plyr.js",
+  "scripts": {
+    "build": "gulp",
+    "serve": "gulp --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perfectstorms/poly.metrika.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/perfectstorms/poly.metrika/issues"
+  },
+  "homepage": "https://github.com/perfectstorms/poly.metrika#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/register": "^7.0.0",
+    "@types/node": "^10.12.10",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-if": "^2.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "query-string": "^6.5.0",
+    "yargs": "^12.0.4"
+  }
+}
